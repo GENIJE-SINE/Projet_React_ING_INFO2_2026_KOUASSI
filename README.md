@@ -196,7 +196,7 @@ moyenne_module = Σ(note_matière × coefficient) / Σ(coefficients)
 ```bash
 # 1. Cloner le dépôt
 git clone "https://github.com/GENIJE-SINE/Projet_React_ING_INFO2_2026_KOUASSI.git"
-cd GestResultsEtudiants
+cd Projet_React_ING_INFO2_2026_KOUASSI
 
 # 2. Installer les dépendances
 npm install
