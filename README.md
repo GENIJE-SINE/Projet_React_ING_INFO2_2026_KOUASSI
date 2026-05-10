@@ -11,7 +11,7 @@
 | Framework | React Native + Expo |
 | Langage | JavaScript |
 | Base de données | Supabase (PostgreSQL) |
-| Dépôt GitHub | Voir 6. [Téléchargement et exécution] |
+| Dépôt GitHub | Voire 6.Téléchargement et exécution |
 | Année scolaire | 2025-2026 |
 
 ---
