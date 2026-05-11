@@ -1,4 +1,4 @@
-# Rapport Technique — INPHB Grades
+# Rapport — GestResultEtudiants
 ### Application de Gestion des Résultats Académiques
 
 ---
