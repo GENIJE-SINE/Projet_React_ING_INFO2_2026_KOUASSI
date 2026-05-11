@@ -7,7 +7,7 @@
 |-----------|--------|
 | Nom du projet | GestResultsEtudiants |
 | Version | 1.0.0 |
-| Plateformes | iOS · Android · Web |
+| Plateformes | iOS · Android |
 | Framework | React Native + Expo |
 | Langage | JavaScript |
 | Base de données | Supabase (PostgreSQL) |
