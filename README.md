@@ -141,7 +141,7 @@ GestResultsEtudiants/
 
 ### 5.1 Migration vers Supabase
 
-Le client Supabase est initialisé dans `database.js` à partir des variables d'environnement `EXPO_PUBLIC_SUPABASE_URL` et `EXPO_PUBLIC_SUPABASE_ANON_KEY` définies dans le fichier `.env`. Le package `react-native-dotenv` assure la lecture de ce fichier au bundling.
+Le client Supabase est initialisé dans `database.js` à partir des variables d'environnement `EXPO_PUBLIC_SUPABASE_URL` et `EXPO_PUBLIC_SUPABASE_ANON_KEY` définies dans le fichier `.env` dont l'exemple de cofiguration est donné dans `.env.example`. Le package `react-native-dotenv` assure la lecture de ce fichier au bundling.
 
 ```env
 EXPO_PUBLIC_SUPABASE_URL=https://xxxx.supabase.co
