@@ -30,6 +30,8 @@ yarn-error.*
 .DS_Store
 *.pem
 
+# variable locale
+.env
 
 # typescript
 *.tsbuildinfo
