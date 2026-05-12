@@ -3,6 +3,11 @@
 
 ---
 
+### Réalisé par
+# KOUASSI Kouassi Richard
+
+---
+
 | Propriété | Valeur |
 |-----------|--------|
 | Nom du projet | GestResultsEtudiants |
