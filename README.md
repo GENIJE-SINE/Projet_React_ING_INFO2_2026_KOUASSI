@@ -34,7 +34,7 @@
 
 ## 1. Présentation du projet
 
-**INPHB Grades** est une application mobile et web de gestion des résultats académiques développée pour l'Institut National Polytechnique Houphouët-Boigny (INPHB), Yamoussoukro, Côte d'Ivoire.
+**GestResultEtudiants** est une application mobile de gestion des résultats académiques développée pour l'Institut National Polytechnique Houphouët-Boigny (INPHB), Yamoussoukro, Côte d'Ivoire.
 
 Elle couvre l'intégralité du cycle des résultats scolaires : saisie des notes par les enseignants, consultation des bulletins par les étudiants, gestion des rattrapages, visualisation de la matrice de classe et administration des utilisateurs.
 
