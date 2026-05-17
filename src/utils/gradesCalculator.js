@@ -147,11 +147,8 @@ export const getCouleurMatiere = (matiere, module, resultats) => {
     if (matiere.noteFinale < MOY_MIN_MODULE) return 'jaune';
   }
 
-  // Cas : tous modules validés, semestre non validé
-  if (tousModulesValides && !semestreValide) {
-    // Module avec moyenne < 12 → matières du module en jaune
-    if (module.moyenneModule < MOY_MIN_MATIERE_SEMESTRE) return 'jaune';
-    // Module OK (>= 12) mais matière < 12 → jaune aussi
+  // Cas : semestre non validé → toute matière validée avec note < 12 en jaune
+  if (!semestreValide) {
     if (matiere.noteFinale < MOY_MIN_MATIERE_SEMESTRE) return 'jaune';
   }
 
@@ -169,10 +166,11 @@ export const getCouleurModule = (module, resultats) => {
   // ROUGE : module non validé
   if (!module.moduleValide) return 'rouge';
 
-  // Tous modules validés, semestre non validé, module < 12
-  if (tousModulesValides && !semestreValide) {
+  // Si le semestre n'est pas validé :
+  // - modules dont la moyenne < 12 → jaune (sauf module non validé qui est rouge)
+  // - module >=12 mais contenant une matière <12 → jaune
+  if (!semestreValide) {
     if (module.moyenneModule < MOY_MIN_MATIERE_SEMESTRE) return 'jaune';
-    // Module >= 12 mais une matière < 12 → module en jaune aussi
     const uneMatiereSousSeuil = module.matieres.some(m => m.noteFinale !== null && m.noteFinale < MOY_MIN_MATIERE_SEMESTRE);
     if (uneMatiereSousSeuil) return 'jaune';
   }
